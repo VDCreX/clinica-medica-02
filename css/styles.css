@@ -1,0 +1,109 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #007bff;
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+
+.adm-btn {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: bold;
+    margin-left: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-size: 14px;
+}
+.adm-btn:hover {
+    background-color: #e0e0e0;
+    color: #0056b3;
+    border-color: #0056b3;
+}
+
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+
+.hero {
+    background: url('../IMG/Clínica-Médica.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+.hero p {
+    font-size: 1.2em;
+}
+
+
+.services .card {
+    transition: transform 0.3s;
+}
+.services .card:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#team .rounded-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    padding: 5px;
+    transition: transform 0.3s;
+}
+
+#team .rounded-circle:hover {
+    transform: scale(1.1);
+    border-color: #0056b3;
+}
+
+
+.hero h1 {
+    font-size: 3rem; 
+    color: #ffffff; 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); 
+    font-weight: bold; 
+}
+
+
+.hero p {
+    font-size: 1.5rem; 
+    color: #f1f1f1; 
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4); 
+    margin-top: 10px;
+}
+
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../IMG/Clínica-Médica.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0; 
+    color: white;
+}
+
